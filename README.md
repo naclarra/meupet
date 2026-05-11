@@ -1,37 +1,43 @@
- MeuPet
+# MeuPet 🐾
 
-Projeto feito em Java para simular o sistema de um pet shop.
-Aqui eu organizei as telas, classes e funções de forma separada em camadas para deixar o projeto mais claro e fácil de manter.
+Sistema de pet shop desenvolvido em Java. Fiz esse projeto pra consolidar conhecimento em POO, padrões de design e interfaces gráficas. 
 
-O que o sistema faz:
+Na verdade é bem funcional mesmo - você consegue cadastrar clientes, registrar pets, agendar serviços, controlar produtos e fazer vendas. Nada muito complexo, mas bem organizado.
 
-Cadastro de clientes;
-Cadastro de produtos;
-Cadastro de animais;
-Telas de atendimento, vendas e agendamentos;
-Tela de login;
-Navegação por menus;
-Interface com ícones e formulários.
+## O que tem aqui
 
-É basicamente um sistema completo de pet shop, só que em versão acadêmica.
- 
-Como o projeto está organizado:
+- Autenticação de usuários
+- Cadastro de clientes e pets
+- Agendamento de serviços
+- Gerenciamento de produtos
+- Registro de vendas
+- Interface gráfica intuitiva
 
-Usei uma estrutura dividida em pastas para deixar tudo mais organizado -
+## Como está estruturado
 
-Model - Classes principais (cliente, produto, usuário etc).
-DAO - Onde ficam as operações de acesso aos dados (adicionar, buscar, editar…).
-Controller - Liga as telas ao resto da lógica.
-View - As telas do sistema (arquivos .form e .java).
-imagens - Ícones usados na interface.
+O projeto segue padrão MVC com DAO - cada coisa no seu lugar. **Controller** faz a comunicação entre as telas e a lógica, **Model** tem as classes principais, **View** são todas as telas (feitas com Swing), **DAO** gerencia os dados. Simples assim.
 
-Tecnologias utilizadas:
+## Como usar
 
-Java;
-Programação Orientada a Objetos;
-Padrão MVC;
-DAO;
-Swing (telas gráficas);
-IntelliJ IDEA.
+```bash
+git clone https://github.com/naclarra/meupet.git
+cd meupet
+```
 
-Sobre mim: Sou estudante de Ciência da Computação e desenvolvi esse projeto como prática de POO, organização de código e interface gráfica.
+Abre no IntelliJ IDEA, deixa carregar e roda o Main.java. Pronto, tá rodando.
+
+## Tech Stack
+
+- Java
+- Swing (interface gráfica)
+- MVC + DAO (padrões)
+- IntelliJ IDEA
+
+## Aprendizados
+
+Consegui praticar POO de verdade, entender como funciona separação de responsabilidades, mexer com interfaces gráficas e organizar código em um projeto real.
+
+---
+
+**Ana Galvão** | Desenvolvedora Full-Stack & Analista de Dados  
+[GitHub](https://github.com/naclarra) • [LinkedIn](https://www.linkedin.com/in/ana-galvão)
